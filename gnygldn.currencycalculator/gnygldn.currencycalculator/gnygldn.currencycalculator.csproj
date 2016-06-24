@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="CurrencyPair.cs" />
-    <Compile Include="CurrencyInfos.cs" />
+    <Compile Include="ExchangeRateProvider.cs" />
     <Compile Include="JsnList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

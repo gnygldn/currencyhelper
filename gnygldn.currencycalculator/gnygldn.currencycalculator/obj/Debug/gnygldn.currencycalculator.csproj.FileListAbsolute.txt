@@ -1,0 +1,7 @@
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\bin\Debug\gnygldn.currencycalculator.exe.config
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\obj\Debug\gnygldn.currencycalculator.csprojResolveAssemblyReference.cache
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\bin\Debug\gnygldn.currencycalculator.exe
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\bin\Debug\gnygldn.currencycalculator.pdb
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\bin\Debug\Newtonsoft.Json.dll
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\obj\Debug\gnygldn.currencycalculator.exe
+c:\users\gnygl\desktop\projects\gnygldn.currencycalculator\gnygldn.currencycalculator\obj\Debug\gnygldn.currencycalculator.pdb

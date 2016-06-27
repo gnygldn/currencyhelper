@@ -1,6 +1,6 @@
 ﻿namespace gnygldn.CurrencyCalculator
 {
-    public class JsonList
+    public class ExchangeInfoList
     {
         public CurrencyPair[] CurrencyPairs { get; set; }
     }

@@ -4,18 +4,25 @@ namespace gnygldn.CurrencyCalculator
 {
     public class ExchangeRateProvider
     {
-        readonly string _infoList;
-        public JsnList MyList;
+        public JsonList MyList;
 
-        public ExchangeRateProvider(string infoList)
+        public ExchangeRateProvider(string infoList,string type)
         {
             // TODO: Complete member initialization
-            _infoList = infoList;
+            if (type == "JSON")
+            TranslateIntoJsnList(infoList);
+            if(type == "XML")
+            TranslateIntoXmlList(infoList);
         }
 
-        public void TranslateIntoJsnList()
+        public void TranslateIntoJsnList(string infoList)
         {
-            MyList = (JsnList)JsonConvert.DeserializeObject(_infoList, typeof(JsnList));
+            MyList = (JsonList)JsonConvert.DeserializeObject(infoList, typeof(JsonList));
+        }
+
+        public void TranslateIntoXmlList(string infoList)
+        {
+            
         }
 
         public double FindRate(string current, string next)

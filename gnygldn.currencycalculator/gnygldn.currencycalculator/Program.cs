@@ -12,7 +12,7 @@ namespace gnygldn.CurrencyCalculator
 
         static void Main(string[] args)
         {
-            Calculator calculator = new Calculator(new ExchangeRateProvider(infoList));
+            Calculator calculator = new Calculator(new ExchangeRateProvider(infoList, "JSON"));
             result = calculator.Calculate(currentCurrency, nextCurrency, amount);
         }
     }

@@ -1,0 +1,16 @@
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\obj\Debug\gnygldn.CurrencyCalculatorTests.csprojResolveAssemblyReference.cache
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\gnygldn.CurrencyCalculatorTests.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\gnygldn.CurrencyCalculatorTests.pdb
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.Core.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\gnygldn.currencycalculator.exe
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\nunit.framework.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\gnygldn.currencycalculator.pdb
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.pdb
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.xml
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\FluentAssertions.Core.xml
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\bin\Debug\nunit.framework.xml
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\obj\Debug\gnygldn.CurrencyCalculatorTests.dll
+C:\Users\gnygl\Desktop\projects\currencyhelper\gnygldn.currencycalculator\gnygldn.CurrencyCalculatorTests\obj\Debug\gnygldn.CurrencyCalculatorTests.pdb

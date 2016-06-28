@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gnygldn.currencycalculator", "gnygldn.currencycalculator\gnygldn.currencycalculator.csproj", "{B58F529A-2C04-49EE-A78C-18C8F7DFB0DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gnygldn.CurrencyCalculator", "gnygldn.currencycalculator\gnygldn.CurrencyCalculator.csproj", "{B58F529A-2C04-49EE-A78C-18C8F7DFB0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gnygldn.CurrencyCalculatorTests", "gnygldn.CurrencyCalculatorTests\gnygldn.CurrencyCalculatorTests.csproj", "{8E14B07D-849C-489A-A1BD-38980769209C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B58F529A-2C04-49EE-A78C-18C8F7DFB0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58F529A-2C04-49EE-A78C-18C8F7DFB0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58F529A-2C04-49EE-A78C-18C8F7DFB0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E14B07D-849C-489A-A1BD-38980769209C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E14B07D-849C-489A-A1BD-38980769209C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E14B07D-849C-489A-A1BD-38980769209C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E14B07D-849C-489A-A1BD-38980769209C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

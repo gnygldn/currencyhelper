@@ -11,26 +11,12 @@ namespace gnygldn.CurrencyCalculator
         public ExchangeInfoList ConvertedList;
 
 
-        public ExchangeRateProvider(string infoList, string type)
+        public ExchangeRateProvider(ExchangeInfoList exchangeInfoList)
         {
-            // TODO: Complete member initialization
-            if (type == "JSON")
-                ConvertedList = TranslateIntoJsnList(infoList);
-            if (type == "XML")
-                ConvertedList = TranslateIntoXmlList(infoList);
+            this.ConvertedList = exchangeInfoList;
         }
 
-        public ExchangeInfoList TranslateIntoJsnList(string infoList)
-        {
-            return (ExchangeInfoList)JsonConvert.DeserializeObject(infoList, typeof(ExchangeInfoList));
-        }
-
-        public ExchangeInfoList TranslateIntoXmlList(string infoList)
-        {
-            XmlSerializer serializer = new XmlSerializer(typeof(ExchangeInfoList));
-            return (ExchangeInfoList)serializer.Deserialize(new XmlTextReader(infoList));
-
-        }
+        
 
         public double FindRate(string current, string next, ExchangeInfoList list)
         {

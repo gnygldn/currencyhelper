@@ -1,6 +1,7 @@
 ﻿//infolist stands for the list which have basecurrency,countercurrency and rate
 
 using System.Net;
+using gnygldn.currencycalculator;
 
 namespace gnygldn.CurrencyCalculator
 {
@@ -14,8 +15,8 @@ namespace gnygldn.CurrencyCalculator
 
         static void Main(string[] args)
         {
-            
-            Calculator calculator = new Calculator(new ExchangeRateProvider(infoList, "JSON"));
+            JsonHandler jsonList = new JsonHandler(infoList);
+            Calculator calculator = new Calculator(new ExchangeRateProvider(jsonList.ConvertedList));
             result = calculator.Calculate(currentCurrency, nextCurrency, amount);
         }
     }

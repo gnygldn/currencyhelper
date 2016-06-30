@@ -9,7 +9,7 @@ using gnygldn.CurrencyCalculator;
 
 namespace gnygldn.currencycalculator
 {
-    class XmlHandler
+    public class XmlHandler
     {
         public ExchangeInfoList ConvertedList;
 

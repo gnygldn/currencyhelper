@@ -7,32 +7,44 @@ using System.Threading.Tasks;
 using gnygldn.CurrencyCalculator;
 using NUnit.Framework;
 using FluentAssertions;
+using gnygldn.currencycalculator;
 
 namespace gnygldn.CurrencyCalculatorTests
 {
     [TestFixture]
     public class CurrencyCalculatorFixture
     {
+        private string infoList;
+        private ExchangeInfoList convertedList;
+        private ExchangeRateProvider tryExchangeRateProvider;
         [Test]
         public void TranslateJsonFixer()
         {
-            var response = new ExchangeRateProvider( infoList ,"JSON");
+            var response = new JsonHandler(infoList);
             response.TranslateIntoJsnList(infoList);
-            response.Should().Be("asd");
+            response.ConvertedList.Should().Be("asd");
         }
         [Test]
         public void TranslateXmlFixer()
         {
-            var response = new ExchangeRateProvider(infoList, "XML");
+            var response = new XmlHandler(infoList);
             response.TranslateIntoXmlList(infoList);
-            response.Should().Be("asd");
+            response.ConvertedList.Should().Be("asd");
         }
         [Test]
         public void RateFinderFixer()
         {
-            var response = new ExchangeRateProvider(infoList,type);
-            response.FindRate("USD", "TRY", convertedList);
-            response.Should().Be(2.98);
+            var response = new ExchangeRateProvider(convertedList);
+            var response2 = response.FindRate("USD", "TRY", convertedList);
+            response2.Should().Be(2.98);
+        }
+
+        [Test]
+        public void MultiplyFixer()
+        {
+            var response = new Calculator(tryExchangeRateProvider );
+            var response2 = response.Multiply(3, 5);
+            response2.Should().Be(15);
         }
     }
 }

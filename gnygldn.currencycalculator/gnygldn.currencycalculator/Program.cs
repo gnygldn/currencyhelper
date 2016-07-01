@@ -12,12 +12,13 @@ namespace gnygldn.CurrencyCalculator
         private static string nextCurrency;
         private static double amount;
         private static double result;
+        private static double rateIncreaser;
 
         static void Main(string[] args)
         {
             JsonHandler jsonList = new JsonHandler(infoList);
             Calculator calculator = new Calculator(new ExchangeRateProvider(jsonList.ConvertedList));
-            result = calculator.Calculate(currentCurrency, nextCurrency, amount);
+            result = calculator.Calculate(currentCurrency, nextCurrency, amount,rateIncreaser);
         }
     }
 }

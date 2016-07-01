@@ -8,7 +8,7 @@ namespace gnygldn.CurrencyCalculator
 {
     public class ExchangeRateProvider
     {
-        public ExchangeInfoList ConvertedList;
+        readonly ExchangeInfoList ConvertedList;
 
 
         public ExchangeRateProvider(ExchangeInfoList exchangeInfoList)
@@ -18,13 +18,13 @@ namespace gnygldn.CurrencyCalculator
 
         
 
-        public double FindRate(string current, string next, ExchangeInfoList list)
+        public double FindRate(string current, string next,double rateIncreaser)
         {
-            foreach (var pair in list.CurrencyPairs)
+            foreach (var pair in ConvertedList.CurrencyPairs)
             {
                 if (pair.BaseCurrency == current && pair.CounterCurrency == next)
                 {
-                    return pair.Rate;
+                    return (100+rateIncreaser)/100*(pair.Rate);
                 }
             }
             throw new SystemException("no such pair was found, please check your inputs or information soource");

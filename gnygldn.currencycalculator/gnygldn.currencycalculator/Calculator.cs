@@ -9,9 +9,9 @@
             this.exchangeRateProvider = exchangeRateProvider;
         }
 
-        public double Calculate(string current, string next, double amount)
+        public double Calculate(string current, string next, double amount,double rateIncreaser)
         {
-            return Multiply(amount,exchangeRateProvider.FindRate(current, next, exchangeRateProvider.ConvertedList));
+            return Multiply(amount,exchangeRateProvider.FindRate(current, next,rateIncreaser));
         }
 
         public double Multiply(double amount,double rate)

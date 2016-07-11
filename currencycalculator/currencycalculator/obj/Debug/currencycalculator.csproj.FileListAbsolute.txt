@@ -5,3 +5,6 @@ C:\Users\gnygl\Desktop\projects\currencycalculator\currencycalculator\bin\Debug\
 C:\Users\gnygl\Desktop\projects\currencycalculator\currencycalculator\obj\Debug\currencycalculator.csprojResolveAssemblyReference.cache
 C:\Users\gnygl\Desktop\projects\currencycalculator\currencycalculator\obj\Debug\currencycalculator.exe
 C:\Users\gnygl\Desktop\projects\currencycalculator\currencycalculator\obj\Debug\currencycalculator.pdb
+C:\Users\gnygl\Desktop\projects\currencyhelper\currencycalculator\currencycalculator\bin\Debug\currencycalculator.exe.config
+C:\Users\gnygl\Desktop\projects\currencyhelper\currencycalculator\currencycalculator\obj\Debug\currencycalculator.exe
+C:\Users\gnygl\Desktop\projects\currencyhelper\currencycalculator\currencycalculator\obj\Debug\currencycalculator.pdb

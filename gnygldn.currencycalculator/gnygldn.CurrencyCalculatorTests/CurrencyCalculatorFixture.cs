@@ -35,7 +35,7 @@ namespace gnygldn.CurrencyCalculatorTests
         public void RateFinderFixer()
         {
             var response = new ExchangeRateProvider(convertedList);
-            var response2 = response.FindRate("USD", "TRY", convertedList);
+            var response2 = response.FindRate("USD", "TRY", 3);
             response2.Should().Be(2.98);
         }
 

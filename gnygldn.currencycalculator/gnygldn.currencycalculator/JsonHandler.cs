@@ -5,16 +5,16 @@ namespace gnygldn.currencycalculator
 {
     public class JsonHandler
     {
-        public ExchangeInfoList ConvertedList;
+        public GetExchangeRatesResponse ConvertedList;
 
         public JsonHandler(string infoList)
         {
             ConvertedList = TranslateIntoJsnList(infoList);
         }
 
-        public ExchangeInfoList TranslateIntoJsnList(string infoList)
+        public GetExchangeRatesResponse TranslateIntoJsnList(string infoList)
         {
-            return (ExchangeInfoList)JsonConvert.DeserializeObject(infoList, typeof(ExchangeInfoList));
+            return (GetExchangeRatesResponse)JsonConvert.DeserializeObject(infoList, typeof(GetExchangeRatesResponse));
         }
     }
 }

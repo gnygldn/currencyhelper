@@ -4,12 +4,12 @@ namespace gnygldn.CurrencyCalculator
 {
     public class ExchangeRateProvider
     {
-        readonly ExchangeInfoList ConvertedList;
+        readonly GetExchangeRatesResponse ConvertedList;
 
 
-        public ExchangeRateProvider(ExchangeInfoList exchangeInfoList)
+        public ExchangeRateProvider(GetExchangeRatesResponse getExchangeRatesResponse)
         {
-            this.ConvertedList = exchangeInfoList;
+            this.ConvertedList = getExchangeRatesResponse;
         }
 
 

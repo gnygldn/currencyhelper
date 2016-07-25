@@ -45,7 +45,7 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="CurrencyPair.cs" />
     <Compile Include="ExchangeRateProvider.cs" />
-    <Compile Include="ExchangeInfoList.cs" />
+    <Compile Include="GetExchangeRatesResponse.cs" />
     <Compile Include="JsonHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

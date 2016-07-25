@@ -15,7 +15,7 @@ namespace gnygldn.CurrencyCalculatorTests
     public class CurrencyCalculatorFixture
     {
         private string infoList;
-        private ExchangeInfoList convertedList;
+        private GetExchangeRatesResponse convertedList;
         private ExchangeRateProvider tryExchangeRateProvider;
         [Test]
         public void TranslateJsonFixer()
